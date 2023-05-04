@@ -38,8 +38,6 @@ console.log(str2.concat(', ', str1));
 
 
 
-
-
 const stry = 'Mozilla';
 
 console.log(stry.substring(1, 3));
@@ -47,3 +45,10 @@ console.log(stry.substring(1, 3));
 
 console.log(stry.substring(2));
 //  output: "zilla"
+const greeting = '   Hello world!   ';
+
+console.log(greeting);
+//  output: "   Hello world!   ";
+
+console.log(greeting.trim());
+// output: "Hello world!";
